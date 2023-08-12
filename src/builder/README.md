@@ -47,8 +47,11 @@ Now, there is a number of problem in this implementation:
 - Repetition in our exporting method
 
 Let's solve this problem using the `Builder pattern`: Separate the `exporting logic` from the `presentation format`.
+### Structure
+![Image](../../images/builder/builder1.png)
 
-![Image]()
+For our case
+![Image](../../images/builder/builder.png)
 
 ```
 public class Presentation {
